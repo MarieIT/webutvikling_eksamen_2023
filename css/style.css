@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+body h1 {
+  display: none;
+}
+body #grid-container {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+}
+body header {
+  background-color: #fff;
+  grid-area: "header";
+  margin: 0;
+}
+body header nav #header-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  flex-wrap: wrap;
+}
+body header nav #header-list #contact {
+  background-color: #e6bd43;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+}
+
+#main-section1 img {
+  max-width: 400px;
+}/*# sourceMappingURL=style.css.map */

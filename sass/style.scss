@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    h1{
+        display: none; 
+    }
+
+    #grid-container{
+        display: grid; 
+        grid-template-areas: "header" "main" "footer";
+    }
+
+    header{
+            background-color: #fff;
+            grid-area:"header"; 
+            margin: 0; 
+            
+            nav{
+
+                #header-list{
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column; 
+                    align-self:center;
+                    flex-wrap: wrap;
+
+                    #contact{
+                        background-color: #e6bd43;
+                        width: fit-content; 
+                        padding-left: 30px; 
+                        padding-right: 30px; 
+                        font-weight: bold;
+        
+                    }
+                
+                }
+                
+
+            
+            }
+    }
+   
+}
+
+#main-section1{
+    img{
+        max-width: 400px;
+    }
+}
